@@ -44,3 +44,11 @@ hashmap.c:81:5: error: expected ',' or ';' before 'if'
      if (pair == NULL) return;
      ^~
 18b6f9d
+Fri, Apr 18, 2025 12:53:53 PM: 
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'eraseMap':
+hashmap.c:81:5: error: expected ',' or ';' before 'if'
+     if (pair == NULL) return;
+     ^~
+e0742f2
