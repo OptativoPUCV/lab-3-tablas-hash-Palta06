@@ -34,3 +34,13 @@ Fri, Apr 18, 2025 12:48:58 PM:
  tests:  8|3
 total_score: 40/70
 59d8202
+Fri, Apr 18, 2025 12:53:36 PM: 
+ hashmap.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'eraseMap':
+hashmap.c:81:5: error: expected ',' or ';' before 'if'
+     if (pair == NULL) return;
+     ^~
+18b6f9d
