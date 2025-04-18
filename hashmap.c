@@ -49,9 +49,9 @@ void insertMap(HashMap * map, char * key, void * value) {
         index = (index + 1) % map->capacity;
         if (index == start) return;
     }
-    map->buckets[inedx] = createPair(key, value);
+    map->buckets[index] = createPair(key, value);
     map->current = index;
-    map->size++
+    map->size++;
 }
 
 void enlarge(HashMap * map) {
