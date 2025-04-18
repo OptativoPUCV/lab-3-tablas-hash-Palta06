@@ -52,3 +52,9 @@ hashmap.c:81:5: error: expected ',' or ';' before 'if'
      if (pair == NULL) return;
      ^~
 e0742f2
+Fri, Apr 18, 2025 12:54:21 PM: 
+ hashmap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|2
+total_score: 50/70
+8975dd6
